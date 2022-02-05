@@ -21,9 +21,11 @@ public class DriverFactory {
 			WebDriverManager.firefoxdriver().setup();
 			tlDriver.set(new FirefoxDriver());
 		}
+		System.out.println("Hellow");
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
 		return getDriver();
+	
 	}
 	
 	public static WebDriver getDriver()
