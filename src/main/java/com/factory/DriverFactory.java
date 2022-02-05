@@ -22,6 +22,7 @@ public class DriverFactory {
 			tlDriver.set(new FirefoxDriver());
 		}
 		System.out.println("Hellow develop branch");
+		System.out.println("Hellow develop branch");
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
 		return getDriver();
